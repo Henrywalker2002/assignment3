@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/*header */
+#nav-header h1 {
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 1px 1px 1px #222;
+}
+
+#nav-header {
+    background-color: grey;
+    border: 4px black solid;
+    border-radius: 0;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 2px;
+    background-color: #fff;
+    border-right: 2px solid black ;
+}
+
+#nav-list a {
+    background-color: #fff;
+    text-align: center;
+    color: black;
+    border-bottom: 2px black solid;
+    text-transform: uppercase;
+}
+
+#nav-list a:hover {
+    background-color: grey;
+    color: white;
+}
+
+#menu-h1 {
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+}
+
+/* end header */
+
+/* content */
+#content {
+    margin-top: 40px;
+    width: 95%;
+}
+
+.food-tile {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+#chicken , #beef, #shushi{
+    background-color: grey;
+    height: fit-content;
+}
+
+#beef, #shushi {
+    margin-top: 20px;
+}
+
+.description {
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* end content */
